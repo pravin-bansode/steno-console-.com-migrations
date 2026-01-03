@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We've Moved! - StenoConsole</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 30px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .domain-box {
+            background: #f7f7f7;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .old-domain {
+            color: #999;
+            font-size: 20px;
+            text-decoration: line-through;
+            margin-bottom: 15px;
+        }
+
+        .arrow {
+            font-size: 30px;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        .new-domain {
+            color: #667eea;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .redirect-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .redirect-btn:hover {
+            background: #5568d3;
+        }
+
+        .info-text {
+            color: #888;
+            font-size: 14px;
+            margin-top: 25px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .old-domain {
+                font-size: 18px;
+            }
+
+            .new-domain {
+                font-size: 24px;
+            }
+
+            .redirect-btn {
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 22px;
+            }
+
+            .icon {
+                width: 60px;
+                height: 60px;
+                font-size: 30px;
+            }
+
+            .old-domain {
+                font-size: 16px;
+            }
+
+            .new-domain {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🚀</div>
+        
+        <h1>We've Moved to a New Domain!</h1>
+        
+        <p class="subtitle">StenoConsole has a new home on the web</p>
+        
+        <div class="domain-box">
+            <div class="old-domain">stenoconsole.in</div>
+            <div class="arrow">↓</div>
+            <div class="new-domain">stenoconsole.com</div>
+        </div>
+        
+        <a href="https://stenoconsole.com" class="redirect-btn">Visit New Website</a>
+        
+        <p class="info-text">
+            Please update your bookmarks. You will be automatically redirected to our new domain in a few seconds.
+        </p>
+    </div>
+
+  
+</body>
+</html>
